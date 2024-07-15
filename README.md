@@ -1,22 +1,5 @@
 # FSDL Deforestation Detection
 
-<div align="center">
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/andrecnf/fsdl_deforestation_detection/fsdl_deforestation_detection/dashboard/streamlit_app.py)
-
-[![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/karthikraja95/fsdl_deforestation_detection/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
-[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/karthikraja95/fsdl_deforestation_detection/blob/master/.pre-commit-config.yaml)
-[![Semantic Versions](https://img.shields.io/badge/%F0%9F%9A%80-semantic%20versions-informational.svg)](https://github.com/karthikraja95/fsdl_deforestation_detection/releases)
-[![License](https://img.shields.io/github/license/karthikraja95/fsdl_deforestation_detection)](https://github.com/karthikraja95/fsdl_deforestation_detection/blob/master/LICENSE)
-
-Detecting deforestation from satellite images: a full stack deep learning project
-
-</div>
-
-## Description
-
 A deep learning approach to detecting deforestation risk, using satellite images and a deep learning model. We relied on [Planet](https://www.planet.com/) imagery from two [Kaggle](https://www.kaggle.com/) datasets (one from the [Amazon rainforest](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) and another on [oil palm plantations in Borneo](https://www.kaggle.com/c/widsdatathon2019)) and trained a [ResNet](https://paperswithcode.com/method/resnet) model using [FastAI](https://docs.fast.ai/). For more details, check the following links:
 
 * [Streamlit dashboard for testing the model and exploring the data](https://share.streamlit.io/andrecnf/fsdl_deforestation_detection/fsdl_deforestation_detection/dashboard/streamlit_app.py)
@@ -250,24 +233,3 @@ More information [here](https://github.com/karthikraja95/fsdl_deforestation_dete
 
 </p>
 </details>
-
-## 🛡 License
-
-[![License](https://img.shields.io/github/license/karthikraja95/fsdl_deforestation_detection)](https://github.com/karthikraja95/fsdl_deforestation_detection/blob/master/LICENSE)
-
-This project is licensed under the terms of the `MIT` license. See [LICENSE](https://github.com/karthikraja95/fsdl_deforestation_detection/blob/master/LICENSE) for more details.
-
-## 📃 Citation
-
-```
-@misc{fsdl_deforestation_detection,
-  author = {Karthik Bhaskar, Andre Ferreira},
-  title = {Predicting deforestation from Satellite Images},
-  year = {2021},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/karthikraja95/fsdl_deforestation_detection}}
-}
-```
-
-
